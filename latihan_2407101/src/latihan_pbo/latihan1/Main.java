@@ -15,15 +15,40 @@ class Cafe{
     void buka(){
         System.out.println("Cafe" + nama + "Sudah Buka");
     }
+
+   public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+        // this.alamat = alamat;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
 }
 
+// constructor
 
 public class Main {
     public static void main(String[] args) {
 
+        //Scanner input = new Scanner(System.in);
+        // System.out.println("Masukkan nama cafe: ");
+        // cafe.nama = input.nextline();
+
+        //System.out.println("Nama yang diinput adalah: " +cafe.nama);
+        // cafe.buka();
+
     // Cafe cafe1 = new Cafe();
-    Cafe cafe4 = new Cafe("Janji Jiwa", "Indramayu Kota");
-    cafe4.buka();
+    //Cafe cafe4 = new Cafe("Janji Jiwa", "Indramayu Kota");
+    //cafe4.buka();
     // cafe1.nama = "Kopi Kenangan";
     // cafe1.alamat = "Indramayu";
     
@@ -43,5 +68,10 @@ public class Main {
 
     //     System.out.println("Nama Cafenya adalah : " + cafe3.nama);
     //     System.out.println("Alamatnya ada di : " + cafe3.alamat);
+
+    Cafe cafe5 =  new Cafe("Oksigen", "Indramayu");
+        cafe5.setNama("Kozi coffe");
+        cafe5.buka();
     }
 }
+
