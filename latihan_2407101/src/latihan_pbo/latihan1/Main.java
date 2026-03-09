@@ -1,43 +1,45 @@
 package latihan_pbo.latihan1;
 
-class Cafe{
-    String nama;
-    String alamat;
+// class Cafe{
+//     String nama;
+//     String alamat;
 
-    Cafe(String nama, String alamat){
-        this.nama = nama;
-        this.alamat = alamat;
-        System.out.println(nama);
-        System.out.println(alamat);
-    }
+//     Cafe(String nama, String alamat){
+//         this.nama = nama;
+//         this.alamat = alamat;
+//         System.out.println(nama);
+//         System.out.println(alamat);
+//     }
 
-    // method
-    void buka(){
-        System.out.println("Cafe" + nama + "Sudah Buka");
-    }
+//     // method
+//     void buka(){
+//         System.out.println("Cafe" + nama + "Sudah Buka");
+//     }
 
-   public String getNama() {
-        return nama;
-    }
+//    public String getNama() {
+//         return nama;
+//     }
 
-    public void setNama(String nama) {
-        this.nama = nama;
-        // this.alamat = alamat;
-    }
+//     public void setNama(String nama) {
+//         this.nama = nama;
+//         // this.alamat = alamat;
+//     }
 
-    public String getAlamat() {
-        return alamat;
-    }
+//     public String getAlamat() {
+//         return alamat;
+//     }
 
-    public void setAlamat(String alamat) {
-        this.alamat = alamat;
-    }
-}
+//     public void setAlamat(String alamat) {
+//         this.alamat = alamat;
+//     }
+// }
 
 // constructor
 
 public class Main {
     public static void main(String[] args) {
+
+        BangunRuang bRuang = new BangunRuang();
 
         //Scanner input = new Scanner(System.in);
         // System.out.println("Masukkan nama cafe: ");
@@ -69,9 +71,9 @@ public class Main {
     //     System.out.println("Nama Cafenya adalah : " + cafe3.nama);
     //     System.out.println("Alamatnya ada di : " + cafe3.alamat);
 
-    Cafe cafe5 =  new Cafe("Oksigen", "Indramayu");
-        cafe5.setNama("Kozi coffe");
-        cafe5.buka();
-    }
-}
+//     Cafe cafe5 =  new Cafe("Oksigen", "Indramayu");
+//         cafe5.setNama("Kozi coffe");
+//         cafe5.buka();
+//     }
+// }
 
