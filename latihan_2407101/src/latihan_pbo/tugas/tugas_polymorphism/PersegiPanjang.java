@@ -12,11 +12,11 @@ public class PersegiPanjang extends BangunDatar {
     }
 
     @Override
-    public void tampilkan() {
-        System.out.println("=== Persegi Panjang ===");
-        System.out.println("Panjang : " + getVarA());
-        System.out.println("Lebar   : " + getVarB());
-        System.out.println("Luas    : " + hitungLuas());
-        System.out.println();
-    }
+public void tampilkan() {
+    System.out.println("=== Persegi Panjang ===");
+    System.out.println("Panjang : " + getVarA());
+    System.out.println("Lebar   : " + getVarB());
+    System.out.println("Luas    : " + hitungLuas());
+    System.out.println();
+}
 }

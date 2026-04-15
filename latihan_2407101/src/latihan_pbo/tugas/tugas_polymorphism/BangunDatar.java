@@ -42,6 +42,11 @@ public class BangunDatar {
 
     // Method tampilkan default
     public void tampilkan() {
-        System.out.println("Luas Bangun Datar: " + hitungLuas());
+        System.out.println("Bangun Datar");
+        System.out.println("=========================");
+        System.out.println("varA: " + getVarA());
+        System.out.println("varB: " + getVarB());
+        System.out.println("=========================");
+        System.out.println();
     }
 }

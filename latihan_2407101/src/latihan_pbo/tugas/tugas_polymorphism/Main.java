@@ -5,6 +5,9 @@ public class Main {
 
         BangunDatar bd;
 
+        bd = new BangunDatar(3, 4);
+        bd.tampilkan();  
+
         bd = new Persegi(5);
         bd.tampilkan();
 
@@ -13,5 +16,6 @@ public class Main {
 
         bd = new Segitiga(8, 3);
         bd.tampilkan();
+
     }
 }
