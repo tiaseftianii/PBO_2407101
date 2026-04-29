@@ -1,4 +1,4 @@
-package latihan_pbo.latihan4;
+package latihan_pbo.latihan_4;
 
 public class BelahKetupat extends BangunDatar {
     private double diagonal1;

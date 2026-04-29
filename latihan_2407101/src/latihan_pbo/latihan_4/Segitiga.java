@@ -1,4 +1,4 @@
-package latihan_pbo.latihan4;
+package latihan_pbo.latihan_4;
 
 public class Segitiga extends BangunDatar {
     private double alas;

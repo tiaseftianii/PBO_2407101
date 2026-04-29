@@ -1,4 +1,4 @@
-package latihan_pbo.latihan4;
+package latihan_pbo.latihan_4;
 
 public class PersegiPanjang extends BangunDatar {
     private double panjang;

@@ -1,4 +1,4 @@
-package latihan_pbo.latihan7;
+package latihan_pbo.latihan_5;
 
 public class BangunRuang extends BangunDatar {
     private double tinggi;
